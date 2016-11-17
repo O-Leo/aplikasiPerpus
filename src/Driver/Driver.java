@@ -5,10 +5,13 @@
  */
 package Driver;
 
-/**
- *
- * @author PRAKTIKUM
- */
+import Controller.controller;
+import model.*;
+
+
 public class Driver {
-    //heelooo
+    public static void main(String[] args) {
+        Aplikasi app = new Aplikasi();
+        controller b = new controller(app);
+    }
 }
